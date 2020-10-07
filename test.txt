@@ -1,0 +1,7 @@
+a=[1,4,6,8]
+
+def average(x):
+    ourAverage=sum(x)/len(x)
+    return ourAverage
+
+average(a)
