@@ -28,8 +28,10 @@ The analysis of the election show that:
   - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes
 - The winner of the election was:
   - Diana DeGette, who received "73.8%" of the vote and "272,892" number of votes.
--Here is the txt file output that may be used cross-platform:
+- Here is the txt file output that may be used cross-platform:
+#
 ![PyPoll Election Analysis Algorithm: Txt File Output](https://github.com/zborglin/Election_Analysis/blob/main/analysis/election_results_output.png)
+#
 
 ## Challenge Overview
 A deeper dive into the voter data reveals differences in county voter turnout rates. This request requires the following additional tasks:
@@ -53,6 +55,8 @@ The analysis of the voting data by county shows that:
  This script enables an efficient and precise election analysis that can be configured to securely analyze all election data in the country. There are a few elements to this technology that enable is capability to meet the diverse needs of the different voting districts:
  -Efficiency: the algorithm is built for speed computing and can easily handle large amounts of data
  -Column driven database structure: any election data that is organized with CSV format can be accomodated by this tool. To give an example, the image below shows where in the code you can assign the target columns in the election data file
+ #
  ![Configurable Column-Based Analysis](https://github.com/zborglin/Election_Analysis/blob/main/analysis/column_info.png)
+ #
  -Complete Information Customization: There are no limits to the types of data and calculations you may implement within the script. If you want to add categorical information to describe additional data factors you may add them to the analysis. For example, you can add information regarding state election information, the congressional voting results, the funding received by each candidate, or the party affiliation. In addition, you may had any calculations to the results in order to provide the analytics that best represent the essential information. For example, you might be interested in supplementing the analysis to include the electoral votes associated with the popular vote or an analysis of the distribution of voting times relative to election day to see if voters turnout earlier in some districts. 
  
