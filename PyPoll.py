@@ -108,7 +108,7 @@ with open(file_to_load) as election_data:
                     #And, set the winning_candidate equal to the candidate's name
                     winning_candidate = candidate_name
                     #print(winning_candidate_summary)
-                #print th ewinning candidates results to the terminal
+                #print the winning candidates results to the terminal
                             #Print out the winning candidate, vote count and percentage to terminal
         winning_candidate_summary = (
                 f"--------------------------\n"
